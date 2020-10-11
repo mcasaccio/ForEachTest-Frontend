@@ -156,7 +156,7 @@ export const FormEmployeeScreen = () => {
                 <select className="form-control" name="medioDeTransporte" onChange={handleEmployeeInputChange} >
                     <option value="" defaultValue>Seleccionar transporte</option>
                     <option value="0.033">Metro (Tren, Subway, Subterráneo)</option>
-                    <option value="0.21">Auto (Gasolina)</option>
+                    <option value="0.021">Auto (Gasolina)</option>
                     <option value="0.249">Camioneta (Diésel) </option>
                     <option value="0.092">Motocicleta (Gasolina) </option>
                     <option value="0.039">Bus Transantiago (Transporte público) </option>
