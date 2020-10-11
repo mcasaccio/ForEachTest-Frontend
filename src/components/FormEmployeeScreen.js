@@ -107,8 +107,8 @@ export const FormEmployeeScreen = () => {
                 <label>El recorrido es ida y vuelta?</label>
                 <select className="form-control" name="idaVuelta" onChange={handleEmployeeInputChange} >
                     <option value="" defaultValue>Seleccione una opción</option>
-                    <option value="2">Si</option>
-                    <option value="1">No</option>
+                    <option value="1">Si</option>
+                    <option value="2">No</option>
                 </select>
             </div>
 
